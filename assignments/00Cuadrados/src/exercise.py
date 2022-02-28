@@ -1,8 +1,16 @@
 def sumaCuadrados(n):
     """ Esta función calcula
         la suma de n valores cuadrados
+
+        Parameters
+        ----------
+        n : entero
+        Valor a calcular la suma de cuadrados
+        Returns
+        -------
+        entero
     """
-    
+
     suma = 0
     for i in range(1,n+1):
         suma += i ** 2
